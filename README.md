@@ -1,6 +1,8 @@
 # Obstacle Avoiding Bot 🤖
 
-## Step 1 - What You Need in This Project:
+*************************************
+
+# Step 1 - What You Need in This Project:
 
 - Arduino UNO
 - Smart Robot Car Chassis With 2 X Toy Car Wheels And 1 X Universal 
@@ -18,13 +20,19 @@
 - Double Sided Tape(optional)
 - Hot Glue Gun(optional)
 
+*************************************
+
 ## Step 2 - Assembling the Chassis:
 
 Solder two wires to each DC motor. Then fix two motors to the chassis using the screws. Finally attach the Universal wheel (or ball caster wheel)
 
+*************************************
+
 ## Step 3 - Mounting the remaining Components:
 
 Mount the Arduino ,L298n and the Servo on the chassis.Plug four jumper wires to the Ultrasonic sensor and mount it on its bracket. Then mount the bracket on the Servo.
+
+*************************************
 
 ## Step 4 - The Wiring:
 ```
@@ -74,6 +82,9 @@ red wire → breadboard +5V
 
 brown wire → breadboard GND
 ```
+
+*************************************
+
 ## Step 5 - The Programming:
 
 1. Download and Install the Arduino Desktop IDE
@@ -86,6 +97,8 @@ brown wire → breadboard GND
 5. Download and open Full_robot.ino
 6. UVerify the code first and wait for it to finish , now we can upload it to the board>.
 
+*************************************
+
 ## Step 6 - Powering the Robot
 ```
 Connect the Lipo battery to the L298n motor driver as follows:
@@ -94,6 +107,8 @@ Lipo battery (+) → +12V
 
 Lipo battery (- ) → GND
 ```
+
+*************************************
 
 ## Step 7 - Now we're good to go
 
